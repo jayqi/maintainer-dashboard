@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          path: src
 
       - name: Set up Python with uv (local source)
         uses: drivendataorg/setup-python-uv-action@v1
