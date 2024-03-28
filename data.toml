@@ -1,0 +1,145 @@
+## drivendataorg
+[[projects]]
+repo = "drivendataorg/cloudpathlib"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions", "branch" = "master" },
+]
+[[projects]]
+repo = "drivendataorg/deon"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "drivendataorg/erdantic"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "drivendataorg/nbautoexport"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions", "branch" = "master" },
+]
+[[projects]]
+repo = "drivendataorg/repro-tarfile"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "drivendataorg/repro-zipfile"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "drivendataorg/sortedcontainers-pydantic"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "drivendataorg/setup-python-uv-action"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions", "workflow" = "test" },
+]
+
+## jayqi
+[[projects]]
+repo = "jayqi/failed-build-issue-action"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "jayqi/quickhttp"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "jayqi/reprexlite"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "jayqi/spongebob"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions", "workflow" = "tests-spongebobsay-cli", "branch" = "master" },
+    { "badge_type" = "github_actions", "workflow" = "tests-py-pkg", "branch" = "master" },
+    { "badge_type" = "github_actions", "workflow" = "tests-r-pkg", "branch" = "master" },
+]
+[[projects]]
+repo = "jayqi/typenames"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
+]
+[[projects]]
+repo = "uptake/pkgnet"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions", "workflow" = "Tests" },
+]
+
+## conda-forge feedstocks
+[[projects]]
+repo = "conda-forge/cloudpathlib-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "cloudpathlib", "package_id" = 10976 },
+]
+[[projects]]
+repo = "conda-forge/deon-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "deon", "package_id" = 9111 },
+]
+[[projects]]
+repo = "conda-forge/erdantic-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "erdantic", "package_id" = 11883 },
+]
+[[projects]]
+repo = "conda-forge/nbautoexport-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "nbautoexport", "package_id" = 10436 },
+]
+[[projects]]
+repo = "conda-forge/reprexlite-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "reprexlite", "package_id" = 12192 },
+]
+[[projects]]
+repo = "conda-forge/repro-tarfile-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "repro-tarfile", "package_id" = 21420 },
+]
+[[projects]]
+repo = "conda-forge/repro-zipfile-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "repro-zipfile", "package_id" = 21114 },
+]
+[[projects]]
+repo = "conda-forge/sortedcontainers-pydantic-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "cloudpathlib", "package_id" = 21998 },
+]
+[[projects]]
+repo = "conda-forge/typenames-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "typenames", "package_id" = 22001 },
+]

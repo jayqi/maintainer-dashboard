@@ -1,0 +1,10 @@
+# Maintainer Dashboard
+
+Personal dashboard to quickly see the repository status for projects that I maintain.
+
+{% for category, table in tables.items() %}
+## {{ category }}
+
+{{ table.set_params(row_sep="markdown", padding_width=0, quote=False).get_markdown() | safe}}
+
+{% endfor %}

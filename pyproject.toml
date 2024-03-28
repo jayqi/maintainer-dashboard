@@ -1,0 +1,19 @@
+[project]
+requires-python = "~=3.12.1"
+
+## TOOLS ##
+
+[tool.ruff]
+line-length = 99
+src = ["main.py"]
+
+[tool.ruff.lint]
+select = [
+    "E", # Pyflakes
+    "F", # Pycodestyle
+    "I", # isort
+]
+unfixable = ["F"]
+
+[tool.ruff.lint.isort]
+force-sort-within-sections = true
