@@ -45,7 +45,7 @@ badge_data = [
 repo = "drivendataorg/setup-python-uv-action"
 category = "DrivenData Projects"
 badge_data = [
-    { "badge_type" = "github_actions", "workflow" = "test" },
+    { "badge_type" = "github_actions", "workflow" = "test.yml" },
 ]
 
 ## jayqi
@@ -71,9 +71,9 @@ badge_data = [
 repo = "jayqi/spongebob"
 category = "Personal Projects"
 badge_data = [
-    { "badge_type" = "github_actions", "workflow" = "tests-spongebobsay-cli", "branch" = "master" },
-    { "badge_type" = "github_actions", "workflow" = "tests-py-pkg", "branch" = "master" },
-    { "badge_type" = "github_actions", "workflow" = "tests-r-pkg", "branch" = "master" },
+    { "badge_type" = "github_actions", "workflow" = "tests-spongebobsay-cli.yml", "branch" = "master" },
+    { "badge_type" = "github_actions", "workflow" = "tests-py-pkg.yml", "branch" = "master" },
+    { "badge_type" = "github_actions", "workflow" = "tests-r-pkg.yml", "branch" = "master" },
 ]
 [[projects]]
 repo = "jayqi/typenames"
@@ -85,7 +85,13 @@ badge_data = [
 repo = "uptake/pkgnet"
 category = "Personal Projects"
 badge_data = [
-    { "badge_type" = "github_actions", "workflow" = "Tests" },
+    { "badge_type" = "github_actions", "workflow" = "ci.yml" },
+]
+[[projects]]
+repo = "jayqi/python-find-project-root-cookbook"
+category = "Personal Projects"
+badge_data = [
+    { "badge_type" = "github_actions" },
 ]
 
 ## conda-forge feedstocks
@@ -94,6 +100,12 @@ repo = "conda-forge/cloudpathlib-feedstock"
 category = "conda-forge Feedstocks"
 badge_data = [
     { "badge_type" = "conda_forge_pipeline", "package_name" = "cloudpathlib", "package_id" = 10976 },
+]
+[[projects]]
+repo = "conda-forge/cookiecutter-data-science-feedstock"
+category = "conda-forge Feedstocks"
+badge_data = [
+    { "badge_type" = "conda_forge_pipeline", "package_name" = "cookiecutter-data-science", "package_id" = 22743 },
 ]
 [[projects]]
 repo = "conda-forge/deon-feedstock"

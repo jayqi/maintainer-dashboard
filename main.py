@@ -15,10 +15,9 @@ class GitHubActionsBadgeData(BaseModel):
     badge_type: Literal["github_actions"]
     repo: str
     branch: str = "main"
-    workflow: str = "tests"
+    workflow: str = "tests.yml"
 
-    _template = "[![tests](https://github.com/{repo}/workflows/{workflow}/badge.svg?branch={branch})](https://github.com/{repo}/actions?query=workflow%3A{workflow}+branch%3A{branch})"
-
+    _template = "[![tests](https://github.com/{repo}/actions/workflows/{workflow}/badge.svg?branch={branch})](https://github.com/{repo}/actions?query=workflow%3A{workflow}+branch%3A{branch})"
     def render(self):
         return self._template.format(repo=self.repo, branch=self.branch, workflow=self.workflow)
 
