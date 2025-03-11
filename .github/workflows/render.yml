@@ -10,18 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python with uv (local source)
-        uses: drivendataorg/setup-python-uv-action@v1
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
-        run: |
-          uv pip install -r requirements.txt
+      - uses: astral-sh/setup-uv@v5
 
       - name: Render README.md
         run: |
-          python main.py
+          uv run python main.py
 
       - name: Commit and push if it changed
         run: |-
