@@ -6,6 +6,12 @@ badge_data = [
     { "badge_type" = "github_actions", "branch" = "master" },
 ]
 [[projects]]
+repo = "drivendataorg/cookiecutter-data-science"
+category = "DrivenData Projects"
+badge_data = [
+    { "badge_type" = "github_actions", "branch" = "master" },
+]
+[[projects]]
 repo = "drivendataorg/deon"
 category = "DrivenData Projects"
 badge_data = [
