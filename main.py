@@ -47,6 +47,7 @@ class ProjectData(BaseModel):
 
 
 REPO_LINK_TEMPLATE = "[{repo}](https://github.com/{repo})"
+STARS_BADGE_TEMPLATE = "![GitHub Repo stars](https://img.shields.io/github/stars/{repo})"
 ISSUES_BADGE_TEMPLATE = "[![GitHub issues](https://img.shields.io/github/issues-raw/{repo}?label=issues%20open)](https://github.com/{repo}/issues)"
 PULL_REQUESTS_BADGE_TEMPLATE = "[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/{repo}?label=pull%20requests%20open)](https://github.com/{repo}/pulls)"
 
@@ -61,6 +62,7 @@ def main():
     for project_data in projects:
         row = {
             "Repo": REPO_LINK_TEMPLATE.format(repo=project_data.repo),
+            "Stars": STARS_BADGE_TEMPLATE.format(repo=project_data.repo),
             "Builds": "<br>".join(badge.render() for badge in project_data.badge_data),
             "Issues": ISSUES_BADGE_TEMPLATE.format(repo=project_data.repo),
             "PRs": PULL_REQUESTS_BADGE_TEMPLATE.format(repo=project_data.repo),
