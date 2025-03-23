@@ -48,12 +48,6 @@ badge_data = [
     { "badge_type" = "github_actions" },
 ]
 [[projects]]
-repo = "drivendataorg/setup-python-uv-action"
-category = "DrivenData Projects"
-badge_data = [
-    { "badge_type" = "github_actions", "workflow" = "test.yml" },
-]
-[[projects]]
 repo = "drivendataorg/vspect"
 category = "DrivenData Projects"
 badge_data = [
